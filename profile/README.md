@@ -28,6 +28,18 @@ Collect → Observe → Understand → Coordinate → Act → Verify
                     Inspect governs every stage
 ```
 
+## Install
+
+Live on npm today — zero-dependency, Apache-2.0, published with provenance:
+
+```bash
+npm i octopus-runtime          # governed execution runtime
+npm i -g octopus-inspect       # governance linter →  octopus-inspect .
+npm i -g octopus-replay        # determinism harness →  octopus-replay --help
+```
+
+The rest are usable from source now and rolling out to npm.
+
 ## Principles
 
 1. **Observation precedes reasoning** — *Observe*
@@ -40,7 +52,7 @@ Collect → Observe → Understand → Coordinate → Act → Verify
 ## Also in the family
 
 - [octopus-linkedin](https://github.com/octoryn/octopus-linkedin) — a governance example: *draft → review → approve → publish*, the stack's discipline applied to a real outward action.
-- **octopus-agentos** — an enterprise AI development environment (the stack's distribution form).
+- [octopus-agentos](https://github.com/octoryn/octopus-agentos) — an enterprise AI development environment (the stack's distribution form).
 
 ---
 
