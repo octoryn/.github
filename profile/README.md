@@ -42,6 +42,7 @@ EU AI Act Art. 12/14 logging story, in shipping code.
 | **Observe** | [Observe](https://github.com/octoryn/octopus-observe) | Turn untrusted events into trusted observations. | → evidence |
 | **Understand** | [Experience](https://github.com/octoryn/octopus-experience) | Knowledge is earned, not stored. | |
 | **Coordinate** | [Blackboard](https://github.com/octoryn/octopus-blackboard) | Shared cognition for coding agents. | |
+| **Track** | [Workstate](https://github.com/octoryn/octopus-workstate) | Where work is, and why it moved state. | → evidence |
 | **Act** | [Runtime](https://github.com/octoryn/octopus-runtime) | Make unsafe actions structurally impossible. | → evidence |
 | **Verify** | [Replay](https://github.com/octoryn/octopus-replay) | Reproduce every agent incident byte-for-byte. | → evidence |
 | **Govern** *(every stage)* | [Inspect](https://github.com/octoryn/octopus-inspect) | Governance lint for AI workspaces. | → evidence |
@@ -74,6 +75,7 @@ npm i octopus-runtime       # governed execution — every autonomy decision →
 npm i octopus-observe       # untrusted events → trusted observations → verifiable evidence
 npm i -g octopus-scout      # governed web/PDF ingestion — semantic search works offline, no API key
 npm i -g octopus-blackboard # shared agent memory (see quickstart above)
+npm i octopus-workstate     # verifiable work-state ledger — a task is a provenance chain, not a to-do
 npm i -g octopus-replay     # determinism harness → octopus-replay --help
 ```
 
